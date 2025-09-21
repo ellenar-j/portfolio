@@ -47,7 +47,11 @@
 
 <body>
   <!-- Header -->
-  <div id="header"></div>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top shadow-lg">
+    <div class="container-fluid justify-content-center">
+      <a class="navbar-brand py-0 text-center" href="./index.html"><img src="./assets/images/logo.svg" alt="Mine" height="50px"></a>
+    </div>
+  </nav>
 
   <!-- Content -->
   <div class="ctrl-page">
@@ -1160,7 +1164,16 @@
   </div>
   
   <!-- Footer -->
-  <div id="footer"></div>
+  <footer class="text-center position-relative p-2 bg-dark text-white fs-7">
+    <div>&copy;Copyright 2026. All Right Reserved.</div>
+
+    <a class="btn btn-primary position-fixed bottom-0 end-0 mx-2 my-4 z-1 btn2top" onclick="topFunction()" id="go2top" title="go to top">
+      <i class="fa-solid fa-arrow-up-long fa-xl"></i>
+    </a>
+  </footer>
+
+  <!-- Plugins: Button to top -->
+  <script src="./assets/plugins/button2top/button2top.js"></script>
   
   <!-- Include Scripts -->
   <script src="./assets/scripts/include-scripts.js"></script>
