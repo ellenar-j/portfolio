@@ -1,0 +1,233 @@
+/* 
+  ********** Theme **********
+*/
+
+/* Embed Font */
+/* @import url('../../assets/fonts/kanit-stylesheet.css');
+@import url('../../assets/fonts/mitr-stylesheet.css');
+@import url('../../assets/fonts/prompt-stylesheet.css');
+@import url('../../assets/fonts/noto-sans-thai-stylesheet.css'); */
+
+body {
+  /* font-family: var(--quaternary-ci-font); */
+  background-color: #000;
+}
+
+/* Variable */
+:root {
+  --primary-ci-font: 'Kanit', 'Helvetica Neue', Arial, sans-serif;
+  --primary-ci-color-110: #9d6d00;            /* Primary Value Up         */
+  --primary-ci-color-100: #F15A22;            /* Primary                  */
+  --primary-ci-color-90: #ffdc4c;             /* Primary Value Down       */
+  --primary-ci-color-rgb-110: 157, 109, 0;      /* Primary RGB Value Up     */
+  --primary-ci-color-rgb-100: 241, 90, 34;      /* Primary RGB              */
+  --primary-ci-color-rgb-90: 255, 220, 76;      /* Primary RGB Value Down   */
+
+  --secondary-ci-font: 'Mitr', 'Helvetica Neue', Arial, sans-serif;
+  --secondary-ci-color-110: #042439;          /* Secondary Value Up       */
+  --secondary-ci-color-100: #333333;          /* Secondary                */
+  --secondary-ci-color-90: #054169;           /* Secondary Value Down     */
+  --secondary-ci-color-rgb-110: 4, 36, 57;      /* Secondary RGB Value Up   */
+  --secondary-ci-color-rgb-100: 51, 51, 51;     /* Secondary RGB            */
+  --secondary-ci-color-rgb-90: 5, 65, 105;      /* Secondary RGB Value Down */
+
+  --tertiary-ci-font: 'Prompt', 'Helvetica Neue', Arial, sans-serif;
+  --quaternary-ci-font: 'Noto Sans Thai', 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Font Family */
+.font-family-primary {
+  font-family: var(--primary-ci-font);
+}
+.font-family-secondary {
+  font-family: var(--secondary-ci-font);
+}
+.font-family-tertiary {
+  font-family: var(--tertiary-ci-font);
+}
+.font-family-quaternary {
+  font-family: var(--quaternary-ci-font);
+}
+
+/* Button */
+.btn {
+  border-radius: 0.75rem 0 0.75rem 0;
+}
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: var(--primary-ci-color-100);
+  --bs-btn-border-color: var(--primary-ci-color-100);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: rgba(var(--primary-ci-color-rgb-100), 0.8);
+  --bs-btn-hover-border-color: rgba(var(--primary-ci-color-rgb-100), 0.8);
+  --bs-btn-focus-shadow-rgb: var(--primary-ci-color-rgb-90);
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: rgba(var(--primary-ci-color-rgb-100), 0.8);
+  --bs-btn-active-border-color: rgba(var(--primary-ci-color-rgb-100), 0.8);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: var(--primary-ci-color-100);
+  --bs-btn-disabled-border-color: var(--primary-ci-color-100);
+}
+.btn-secondary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: var(--secondary-ci-color-100);
+  --bs-btn-border-color: var(--secondary-ci-color-100);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: rgba(var(--secondary-ci-color-rgb-100), 0.8);
+  --bs-btn-hover-border-color: rgba(var(--secondary-ci-color-rgb-100), 0.8);
+  --bs-btn-focus-shadow-rgb: 130, 138, 145;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: rgba(var(--secondary-ci-color-rgb-100), 0.8);
+  --bs-btn-active-border-color: rgba(var(--secondary-ci-color-rgb-100), 0.8);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #6c757d;
+  --bs-btn-disabled-border-color: #6c757d;
+}
+.btn-outline-primary {
+  --bs-btn-color: #000;
+  --bs-btn-border-color: #dee2e6;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: var(--primary-ci-color-100);
+  --bs-btn-hover-border-color: var(--primary-ci-color-100);
+  --bs-btn-focus-shadow-rgb: 13, 110, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: var(--primary-ci-color-100);
+  --bs-btn-active-border-color:#dee2e6;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: var(--primary-ci-color-100);
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #dee2e6;
+  --bs-gradient: none;
+}
+.btn-outline-secondary {
+  --bs-btn-color: #6c757d;
+  --bs-btn-border-color: #dee2e6;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: var(--secondary-ci-color-100);
+  --bs-btn-hover-border-color: #dee2e6;
+  --bs-btn-focus-shadow-rgb: 108, 117, 125;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: var(--secondary-ci-color-100);
+  --bs-btn-active-border-color: #dee2e6;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #6c757d;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #dee2e6;
+  --bs-gradient: none;
+}
+.btn-link {
+  --bs-btn-font-weight: 400;
+  --bs-btn-color: var(--primary-ci-color-100);
+  --bs-btn-bg: transparent;
+  --bs-btn-border-color: transparent;
+  --bs-btn-hover-color: rgba(var(--primary-ci-color-rgb-100), 0.5);
+  --bs-btn-hover-border-color: transparent;
+  --bs-btn-active-color: rgba(var(--primary-ci-color-rgb-100), 0.5);
+  --bs-btn-active-border-color: transparent;
+  --bs-btn-disabled-color: #6c757d;
+  --bs-btn-disabled-border-color: transparent;
+  --bs-btn-box-shadow: 0 0 0 #000;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  text-decoration: none;
+}
+
+.btn-link-black {
+  --bs-btn-font-weight: 400;
+  --bs-btn-color: #000;
+  --bs-btn-bg: transparent;
+  --bs-btn-border-color: transparent;
+  --bs-btn-hover-color: var(--primary-ci-color-100);
+  --bs-btn-hover-border-color: transparent;
+  --bs-btn-active-color: var(--primary-ci-color-100);
+  --bs-btn-active-border-color: transparent;
+  --bs-btn-disabled-color: #6c757d;
+  --bs-btn-disabled-border-color: transparent;
+  --bs-btn-box-shadow: 0 0 0 #000;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  text-decoration: none;
+}
+
+/* Text Color */
+.text-primary {
+  /* --bs-text-opacity: 1; */
+  color: rgba(var(--primary-ci-color-rgb-100), var(--bs-text-opacity)) !important;
+}
+
+/* Border Color */
+.border-primary {
+  /* --bs-border-opacity: 1; */
+  border-color: rgba(var(--primary-ci-color-rgb-100), var(--bs-border-opacity)) !important;
+}
+
+/* Background Color */
+.bg-primary {
+  /* --bs-bg-opacity: 1; */
+  background-color: rgba(var(--primary-ci-color-rgb-100), var(--bs-bg-opacity)) !important;
+}
+.bg-secondary {
+  /* --bs-bg-opacity: 1; */
+  background-color: rgba(var(--secondary-ci-color-rgb-100), var(--bs-bg-opacity)) !important;
+}
+
+/* List Group */
+.list-group-item.active {
+  z-index: 2;
+  color: #000;
+  background-color: var(--primary-ci-color-100);
+  border-color: var(--primary-ci-color-100);
+}
+
+/* Paging */
+.page-link {
+  position: relative;
+  display: block;
+  padding: var(--bs-pagination-padding-y) var(--bs-pagination-padding-x);
+  font-size: var(--bs-pagination-font-size);
+  color: #707070;
+  text-decoration: none;
+  background-color: var(--bs-pagination-bg);
+  border: var(--bs-pagination-border-width) solid var(--bs-pagination-border-color);
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.page-link:hover {
+  z-index: 2;
+  color: var(--primary-ci-color-100);
+  background-color: var(--bs-pagination-hover-bg);
+  border-color: var(--bs-pagination-hover-border-color);
+}
+.page-link.active, .active > .page-link {
+  z-index: 3;
+  color: #000;
+  background-color: var(--primary-ci-color-100);
+  border-color: var(--primary-ci-color-100);
+}
+
+/* Nav Bar */
+.nav-link {
+  color: var(--primary-ci-color-100);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.nav-link:hover, .nav-link:focus {
+  color: var(--primary-ci-color-100);
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: var(--primary-ci-color-100);
+}
+
+/* Nav Pill */
+.nav-pills {
+  --bs-nav-pills-border-radius: var(--bs-border-radius);
+  --bs-nav-pills-link-active-color: #fff;
+  --bs-nav-pills-link-active-bg: #0d6efd;
+}
+.nav-pills .nav-link {
+  border-radius: var(--bs-nav-pills-border-radius);
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: var(--primary-ci-color-100);
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="550" viewBox="0 0 1600 550">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_3344" data-name="Rectangle 3344" width="500" height="500" transform="translate(-6770.925 3741.075)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1435" data-name="Group 1435" transform="translate(9319 -5320)">
+    <rect id="Rectangle_3343" data-name="Rectangle 3343" width="1600" height="550" transform="translate(-9319 5320)" fill="none"/>
+    <g id="Mask_Group_23" data-name="Mask Group 23" transform="translate(-2523.075 1603.925)" clip-path="url(#clip-path)">
+      <g id="Group_1436" data-name="Group 1436" transform="translate(-6541.477 3734.624) rotate(45)">
+        <rect id="Rectangle_3341" data-name="Rectangle 3341" width="100.03" height="118.217" rx="10" transform="translate(153.374)" fill="#f15a22"/>
+        <path id="Rectangle_3342" data-name="Rectangle 3342" d="M0,0H58.2V301.909A9.094,9.094,0,0,1,49.106,311H9.094A9.094,9.094,0,0,1,0,301.909Z" transform="translate(174.289 133.677)" fill="#f15a22"/>
+        <path id="Path_1822" data-name="Path 1822" d="M0,0V58.333l123.329-.177s10.256.562,11.694-6.1c1.1-6.933-2.94-13.755-25.13-24.7C64.233,4.823,30.7,2.449,0,0Z" transform="translate(271.591 19.929)" fill="#f15a22"/>
+        <path id="Path_1823" data-name="Path 1823" d="M135.187,0V58.333L11.857,58.156S1.6,58.719.163,52.054c-1.1-6.933,2.94-13.755,25.13-24.7C70.953,4.823,104.483,2.449,135.187,0Z" transform="translate(0 19.929)" fill="#f15a22"/>
+      </g>
+    </g>
+    <path id="Path_1822-2" data-name="Path 1822" d="M141.727,0,66.2-211.679H64.8q.594,6.98,1.17,18.726T67-167.542q.453,13.666.453,26.824V0H33.133V-249.186H87.065L158.593-49.04h1.292l73.546-200.146h53.686V0H250.7V-142.812q0-12.111.4-25.131t1.047-24.588q.646-11.569,1-18.8h-1.4L174.249,0Zm288.6,0h-96.94V-21.649l29.627-8.8V-218.5l-29.627-9.041v-21.649h96.94v21.649L400.706-218.5V-30.445l29.621,8.8ZM681.276,0h-45.6L509.666-201.5h-1.4q.7,9.161,1.221,20.411t1.047,23.484q.523,12.234.627,24.842V0H476.844V-249.186H522.1L647.755-48.7h1.292q-.349-7.334-.821-18.6t-1-23.966q-.523-12.7-.627-23.969V-249.186h34.671ZM888.025,0H747.542V-249.186H888.025v32.206H785.234v71.027h96.509v31.961H785.234V-32.31H888.025Z" transform="translate(-8690 5719.186)" fill="#f15a22"/>
+  </g>
+</svg>
